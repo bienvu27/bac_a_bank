@@ -1,0 +1,30 @@
+[
+ 
+    {
+        "icon":"assets/svg/ic_atm_address.svg",
+        "title":"login.atm-location",
+        "router":"/atm"
+    },{
+        "icon": "assets/svg/ic_smart_otp.svg",
+        "title": "smart_otp.manager_smart_otp",
+        "router": "/ManagerSmartOtpScreen"
+    },{
+        "icon":"assets/svg/ic_change_rate.svg",
+        "title":"login.exchange-rate",
+        "router":"/exChangeRate"
+    },{
+        "icon":"assets/svg/ic_interest_rate.svg",
+        "title":"login.interest-rate",
+        "router":"/interestRate"
+    },{
+        "icon":"assets/svg/ic_email.svg",
+        "title":"warning-service.mail-box",
+        "router":"/MailboxScreen"
+    },{
+        "icon":"assets/svg/ic_service.svg",
+        "title":"login.service",
+        "router":"/ServiceInfoScreen"
+    }
+
+
+]

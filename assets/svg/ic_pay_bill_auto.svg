@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="37.778" height="37.778" viewBox="0 0 37.778 37.778">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.113" y1="0.885" x2="0.834" y2="0.165" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#d39d2c"/>
+      <stop offset="0.032" stop-color="#d39d2c"/>
+      <stop offset="0.063" stop-color="#e5af46"/>
+      <stop offset="0.082" stop-color="#ecb751"/>
+      <stop offset="0.175" stop-color="#d5a23d"/>
+      <stop offset="0.254" stop-color="#c79530"/>
+      <stop offset="0.305" stop-color="#cd9c36"/>
+      <stop offset="0.383" stop-color="#ddb248"/>
+      <stop offset="0.435" stop-color="#ecc557"/>
+      <stop offset="0.582" stop-color="#fae56e"/>
+      <stop offset="0.635" stop-color="#fae56e"/>
+      <stop offset="0.706" stop-color="#eecb58"/>
+      <stop offset="0.769" stop-color="#e6ba4a"/>
+      <stop offset="0.812" stop-color="#d9ac40"/>
+      <stop offset="0.853" stop-color="#d3a53b"/>
+      <stop offset="1" stop-color="#9e6e1f"/>
+    </linearGradient>
+  </defs>
+  <path id="Path_3243" data-name="Path 3243" d="M1074.288,348.359h13.969v2.362h-13.969a2.58,2.58,0,0,1-2.558-2.6v-20.78a2.577,2.577,0,0,1,2.558-2.6h.983v1.181a2.362,2.362,0,0,0,4.723,0v-1.181h14.166v1.181a2.361,2.361,0,1,0,4.722,0v-1.181h.985a2.576,2.576,0,0,1,2.557,2.6v9.209h-2.361v-4.722h-25.972v16.293A.223.223,0,0,0,1074.288,348.359Zm21.053-9.444v-4.722h-4.722v4.722Zm1.18-11.806a1.18,1.18,0,0,0,1.181-1.18v-4.722a1.181,1.181,0,1,0-2.361,0v4.722A1.18,1.18,0,0,0,1096.521,327.109Zm-18.889,0a1.18,1.18,0,0,0,1.181-1.18v-4.722a1.18,1.18,0,1,0-2.361,0v4.722A1.18,1.18,0,0,0,1077.632,327.109Zm3.542,7.084h-4.722v4.722h4.722Zm22.431,14.166h-3.542v-3.541a1.18,1.18,0,1,0-2.361,0v4.722a1.18,1.18,0,0,0,1.18,1.181h4.723a1.181,1.181,0,0,0,0-2.362ZM1076.452,346h4.722v-4.723h-4.722Zm33.056,2.36a9.445,9.445,0,1,1-9.445-9.444A9.445,9.445,0,0,1,1109.508,348.359Zm-2.362,0a7.083,7.083,0,1,0-7.083,7.084A7.09,7.09,0,0,0,1107.146,348.359ZM1083.535,346h4.722v-4.723h-4.722Zm0-7.084h4.722v-4.722h-4.722Z" transform="translate(-1071.73 -320.026)" fill="url(#linear-gradient)"/>
+</svg>

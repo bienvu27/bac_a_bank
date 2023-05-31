@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="35.144" height="41.601" viewBox="0 0 35.144 41.601">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.08" y1="0.751" x2="0.92" y2="0.042" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#d39d2c"/>
+      <stop offset="0.032" stop-color="#d39d2c"/>
+      <stop offset="0.063" stop-color="#e5af46"/>
+      <stop offset="0.082" stop-color="#ecb751"/>
+      <stop offset="0.175" stop-color="#d5a23d"/>
+      <stop offset="0.254" stop-color="#c79530"/>
+      <stop offset="0.305" stop-color="#cd9c36"/>
+      <stop offset="0.383" stop-color="#ddb248"/>
+      <stop offset="0.435" stop-color="#ecc557"/>
+      <stop offset="0.582" stop-color="#fae56e"/>
+      <stop offset="0.635" stop-color="#fae56e"/>
+      <stop offset="0.706" stop-color="#eecb58"/>
+      <stop offset="0.769" stop-color="#e6ba4a"/>
+      <stop offset="0.812" stop-color="#d9ac40"/>
+      <stop offset="0.853" stop-color="#d3a53b"/>
+      <stop offset="1" stop-color="#9e6e1f"/>
+    </linearGradient>
+  </defs>
+  <path id="Path_3344" data-name="Path 3344" d="M371.014,1501.3a25.843,25.843,0,0,1-14.3-11.223c-3.858-6.57-2.82-24.317-2.774-25.07l.052-.86,17.359-4.348,17.359,4.348.052.86c.046.753,1.085,18.5-2.774,25.071a25.845,25.845,0,0,1-14.3,11.222l-.337.1Zm-14.773-35.29-.016.377c-.074,1.738-.633,17.132,2.518,22.5a23.741,23.741,0,0,0,12.446,10l.162.055.162-.055a23.74,23.74,0,0,0,12.446-10c3.151-5.367,2.592-20.761,2.518-22.5l-.016-.377-15.11-3.786Zm12.772,15.553-5.15,8.278,1.208,4.668,5.988-9.635Zm6.832-14.364a4.739,4.739,0,0,1-.465,4.013l-3.7,5.968,2.047,3.311,3.176-5.119a6.525,6.525,0,0,0-1.057-8.173Zm-10.045,8.172,11.831,19.138,1.208-4.668-11.517-18.63a4.747,4.747,0,0,1-.465-4.012,6.524,6.524,0,0,0-1.057,8.172Zm2.241-6.659a3.292,3.292,0,0,0,.043.526c.03-.062.061-.123.095-.184a3.632,3.632,0,0,1,6.344,0c.034.061.065.122.1.184a3.31,3.31,0,1,0-6.577-.526Z" transform="translate(-353.779 -1459.801)" fill="url(#linear-gradient)"/>
+</svg>

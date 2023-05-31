@@ -1,0 +1,564 @@
+[
+  {
+    "moduleId": 10000,
+    "title": "menu.home.title",
+    "icon": "assets/svg/ic_home.svg",
+    "contains": [
+    ]
+  },
+  {
+    "moduleId": 1001,
+    "title": "menu.account.title",
+    "icon": "assets/svg/ic_account_information.svg",
+    "contains": [
+      {
+        "moduleId": "210100",
+        "displayName": "display_function.qr-service",
+        "id": "2101",
+        "icon": "assets/svg/dichvuqr.svg",
+        "routerName": "/qrPay"
+      },
+      {
+        "moduleId": "210101",
+        "displayName": "display_function.account_information",
+        "id": "2101",
+        "routerName": "/accountInformationScreen",
+        "icon": "assets/svg/ic_account_information.svg"
+      },
+      {
+        "moduleId": "210103",
+        "displayName": "display_function.beneficiaty",
+        "routerName": "/BeneficiaryAccountScreen",
+        "id": "2101",
+        "icon": "assets/svg/ic_benefiary_account.svg"
+      },
+      {
+        "moduleId": "210218",
+        "displayName": "display_function.note2",
+        "routerName": "/TransferTemplateScreen",
+        "id": "2101",
+        "icon": "assets/svg/svg_maugiaodich.svg"
+      },
+      {
+        "moduleId": "210209",
+        "displayName": "display_function.change_limit",
+        "id": "2101",
+        "icon": "assets/svg/ic_change_limited.svg",
+        "routerName": "/changeLimit"
+      }
+    ]
+  },
+  {
+    "moduleId": 2102,
+    "title": "menu.transfer.title",
+    "icon": "assets/svg/ic_external_transfer.svg",
+    "contains": [
+      {
+        "moduleId": "210201",
+        "displayName": "display_function.internal",
+        "id": "2102",
+        "icon": "assets/svg/ic_internal_transfer.svg",
+        "routerName": "/InternalTransferScreen"
+      },
+      {
+        "moduleId": "210202",
+        "displayName": "display_function.external",
+        "id": "2102",
+        "icon": "assets/svg/ic_external_transfer.svg",
+        "routerName": "/ExternalTransferScreen"
+      },
+      {
+        "moduleId": "210308",
+        "displayName": "display_function.identify-card",
+        "id": "2102",
+        "icon": ""
+      },
+      {
+        "moduleId": "100024",
+        "displayName": "display_function.card-no",
+        "id": "2102",
+        "icon": ""
+      },
+      {
+        "moduleId": "210210",
+        "displayName": "display_function.napas",
+        "id": "2102",
+        "icon": "assets/svg/ic_napas_transfer.svg",
+        "routerName": "/FastTranfersScreen"
+      },
+      {
+        "moduleId": "210212",
+        "displayName": "display_function.cmt_transfer",
+        "id": "2102",
+        "icon": "assets/svg/ic_cmt_transfer.svg",
+        "routerName": "/CmtTranfersScreen"
+      },
+      {
+        "moduleId": "210214",
+        "displayName": "display_function.charity_transfer",
+        "id": "2102",
+        "icon": "assets/svg/ic_account_information.svg",
+        "routerName": "/CharityTransferScreen"
+      },
+      {
+        "moduleId": "210206",
+        "displayName": "display_function.tranfer-history",
+        "id": "2102",
+        "icon": "assets/svg/ic_history_transfer.svg",
+        "routerName": "/HistoryTransferScreen"
+      },
+      {
+        "moduleId": "210216",
+        "displayName": "display_function.transfer-qr",
+        "id": "2102",
+        "icon": "assets/svg/chuyenkhoanquamaqr.svg",
+        "routerName": "/qrPay"
+      }
+    ]
+  },
+  {
+    "moduleId": 2104,
+    "title": "menu.cards.title",
+    "icon": "assets/svg/ic_card_service.svg",
+    "contains": [
+      {
+        "moduleId": "210405",
+        "displayName": "display_function.card-info",
+        "icon": "assets/svg/ic_query_card.svg",
+        "id": "2104",
+        "routerName": "/queryCard"
+      },
+      {
+        "moduleId": "210402",
+        "displayName": "display_function.toggle-card",
+        "icon": "assets/svg/ic_active_card.svg",
+        "id": "2104",
+        "routerName": "/activeLockCard"
+      },
+
+      {
+        "moduleId": "210408",
+        "displayName": "display_function.card-history",
+        "icon": "",
+        "id": "2104"
+      }
+    ]
+  },
+  {
+    "moduleId": 2105,
+    "title": "menu.payment.title",
+    "icon": "assets/svg/ic_payment_online.svg",
+    "contains": [
+      {
+        "moduleId": "210501",
+        "displayName": "display_function.bill",
+        "id": "2105",
+        "routerName": "/PaymentBill",
+        "icon": "assets/svg/ic_pay_bill.svg"
+      },
+      {
+        "moduleId": "210510",
+        "displayName": "display_function.qr-pay",
+        "routerName": "/qrPay",
+        "id": "2105",
+        "icon": "assets/svg/ic_pay_qr.svg"
+      },
+      {
+        "moduleId": "210502",
+        "displayName": "display_function.topup",
+        "id": "2105",
+        "routerName": "/recharge",
+        "icon": "assets/svg/ic_recharge.svg"
+      },
+      {
+        "moduleId": "210500",
+        "displayName": "display_function.topup_data",
+        "id": "2105",
+        "routerName": "/rechargeData",
+        "icon": "assets/svg/ic_recharge_data.svg"
+      },
+      {
+        "moduleId": "210507",
+        "displayName": "display_function.periodic",
+        "id": "2105",
+        "routerName": "/PaymentBillAuto",
+        "icon": "assets/svg/ic_pay_bill_auto.svg"
+      },
+      {
+        "moduleId": "210503",
+        "displayName": "display_function.fast",
+        "routerName": "/FastPayment",
+        "id": "2105",
+        "icon": "assets/svg/ic_fast_payment.svg"
+      },
+      {
+        "moduleId": "210508",
+        "displayName": "display_function.manage-recurring",
+        "id": "2105",
+        "routerName": "/ManagerPaymentBill",
+        "icon": "assets/svg/ic_manager_pay_bill_auto.svg"
+      },
+      {
+        "moduleId": "210506",
+        "displayName": "display_function.inquiry",
+        "id": "2105",
+        "routerName": "/PaymentHistory",
+        "icon": "assets/svg/ic_history_pay_bill.svg"
+      }
+    ]
+  },
+  {
+    "moduleId": 2106,
+    "title": "menu.saving.title",
+    "icon": "assets/svg/ic_money_online.svg",
+    "contains": [
+      {
+        "moduleId": "210601",
+        "displayName": "display_function.create",
+        "id": "2106",
+        "icon": "assets/svg/ic_open_save.svg",
+        "routerName":"/savingCreate"
+      },
+      {
+        "moduleId": "210602",
+        "displayName": "display_function.withdraw",
+        "id": "2106",
+        "icon": "assets/svg/ic_pay_all_save.svg",
+        "routerName":"/savingWithDrawer"
+      },
+      {
+        "moduleId": "210608",
+        "displayName": "display_function.note1",
+        "id": "2106",
+        "icon": "assets/svg/ic_fwp.svg",
+        "routerName":"/principalPartialWithdrawal"
+      },
+      {
+        "moduleId": "210607",
+        "displayName": "display_function.save",
+        "id": "2106",
+        "icon": "assets/svg/ic_history_save.svg",
+        "routerName":"/savingSave"
+      }
+    ]
+  },
+  {
+    "moduleId":2112,
+    "title":"menu.saving.loan",
+    "icon": "assets/svg/ic_loan_save.svg",
+    "contains":[
+      {
+        "moduleId": "210614",
+        "id": "2112",
+        "displayName": "display_function.loan",
+        "icon": "assets/svg/ic_loan_save.svg",
+        "routerName":"/savingLoan"
+      }
+    ]
+ },
+  {
+    "moduleId": 2108,
+    "title": "menu.wallet.title",
+    "icon": "assets/svg/ic_wallet_service.svg",
+    "contains": [
+      {
+        "moduleId": "210801",
+        "displayName": "display_function.walletregistration",
+        "id": "2108",
+        "icon": "assets/svg/ic_connect_wallet.svg",
+        "routerName":"/walletRegistration"
+      },
+      {
+        "moduleId": "210803",
+        "displayName": "display_function.walletcancel",
+        "id": "2108",
+        "icon": "assets/svg/ic_lock_wallet.svg",
+        "routerName":"/walletCancel"
+      },
+      {
+        "moduleId": "210804",
+        "displayName": "display_function.walletchargevia",
+        "id": "2108",
+        "icon": "assets/svg/ic_recharge_wallet.svg",
+        "routerName":"/walletChangeVia"
+      }
+    ]
+  },
+  {
+    "moduleId": 2113,
+    "title": "display_function.stock_service",
+    "icon": "assets/svg/stock.svg",
+    "contains": [
+      {
+        "moduleId": "211301",
+        "displayName": "display_function.open_stock",
+        "id": "2113",
+        "icon": "assets/svg/svg_motaikhoanchungkhoan.svg",
+        "routerName":"/OpenStock"
+      },
+      {
+        "moduleId": "211303",
+        "displayName": "display_function.recharge_stock",
+        "id": "2113",
+        "icon": "assets/svg/svg_noptienvaotkchungkhoan.svg",
+        "routerName": "/rechargeStock"
+      },
+      {
+        "moduleId": "211304",
+        "displayName": "display_function.stock_recharge_history",
+        "id": "2113",
+        "icon": "assets/svg/svg_nhatkychuyentienchungkhoan.svg",
+        "routerName":"/stockRechargeHistoryScreen"
+      }
+    ]
+  },
+
+  {
+    "moduleId": 2110,
+    "title": "menu.insurance.title",
+    "icon": "assets/svg/ic_cancer_insurance.svg",
+    "contains": [
+      {
+        "moduleId": "211001",
+        "displayName": "display_function.health",
+        "id": "2110",
+        "icon": "assets/svg/ic_healthy_insurrance.svg",
+        "routerName": "/healthInsurance"
+      },
+      {
+        "moduleId": "211002",
+        "displayName": "display_function.cancer",
+        "id": "2110",
+        "icon": "assets/svg/ic_cancer_insurance.svg",
+        "routerName": "/cancerInsurance"
+      },
+      {
+        "moduleId": "211003",
+        "displayName": "display_function.breast_cancer",
+        "id": "2110",
+        "icon": "assets/svg/ic_breast_cancer_insurance.svg",
+        "routerName": "/breastCancerInsurance"
+      },
+      {
+        "moduleId": "211004",
+        "displayName": "display_function.extended_accident",
+        "id": "2110",
+        "icon": "assets/svg/ic_extended_accident_insurance.svg",
+        "routerName": "/extendedAccidentInsurance"
+      },
+      {
+        "moduleId": "211009",
+        "displayName": "display_function.diary",
+        "id": "2110",
+        "icon": "assets/svg/ic_history_insurrance.svg",
+        "routerName":"/insuranceDiary"
+      }
+    ]
+  },
+  {
+    "moduleId": 2109,
+    "title": "menu.point.title",
+    "icon": "assets/svg/ic_manager_point.svg",
+    "contains": [
+      {
+        "moduleId": "210901",
+        "displayName": "display_function.give_points",
+        "id": "2109",
+        "icon": "assets/svg/ic_send_point.svg",
+	"routerName": "/giveAPoint"
+      },
+      {
+        "moduleId": "210902",
+        "displayName": "display_function.history_point",
+        "id": "2109",
+        "icon": "assets/svg/ic_history_point.svg",
+	"routerName": "/pointHistory"
+      },
+      {
+        "moduleId": "210903",
+        "displayName": "display_function.gif",
+        "id": "2109",
+        "icon": "assets/svg/ic_change_gift.svg",
+	"routerName": "/changeGift"
+      },
+      {
+        "moduleId": "210904",
+        "displayName": "display_function.history_gif",
+        "id": "2109",
+        "icon": "assets/svg/ic_history_change_gift.svg",
+	 "routerName": "/changeGiftHistory"
+      }
+    ]
+  },
+  {
+    "moduleId": 2111,
+    "title": "menu.extension.title",
+    "icon": "assets/svg/ic_extension.svg",
+    "contains": [
+      {
+        "moduleId": "211101",
+        "displayName": "display_function.ticket",
+        "id": "2111",
+        "icon": "assets/svg/ic_pay_plane.svg",
+        "routerName":"/payment_ticket"
+      },
+      {
+        "moduleId": "211102",
+        "displayName": "display_function.electric",
+        "id": "2111",
+        "icon": "assets/svg/ic_pay_electric.svg",
+        "routerName":"/payment_electric"
+      },
+      {
+        "moduleId": "211103",
+        "displayName": "display_function.water",
+        "id": "2111",
+        "icon": "assets/svg/ic_pay_water.svg",
+        "routerName":"/payment_water"
+      }
+    ]
+  },
+  {
+    "moduleId": 2201,
+    "title": "menu.general.title",
+    "icon": "assets/svg/ic_support_infor.svg",
+    "contains": [
+      {
+        "moduleId": "220110",
+        "displayName": "display_function.atm-location",
+        "id": "10006",
+        "icon": "assets/svg/ic_atm_address.svg",
+        "routerName": "/atm"
+      },
+      {
+        "moduleId": "220109",
+        "displayName": "display_function.exchange-rate",
+        "id": "10006",
+        "routerName": "/exChangeRate",
+        "icon": "assets/svg/ic_change_rate.svg"
+      },
+      {
+        "moduleId": "220108",
+        "displayName": "display_function.interest-rate",
+        "routerName": "/interestRate",
+        "id": "10006",
+        "icon": "assets/svg/ic_interest_rate.svg"
+      },
+      {
+        "moduleId": "220107",
+        "displayName": "display_function.interest-loan",
+        "id": "10006",
+        "routerName": "/loanProfit",
+        "icon": "assets/svg/ic_calculate_loan.svg"
+      },
+      {
+        "moduleId": "220106",
+        "displayName": "display_function.interest-saving",
+        "id": "10006",
+        "routerName": "/savingProfit",
+        "icon": "assets/svg/ic_calculate_send_money.svg"
+      },
+      {
+        "moduleId": "220105",
+        "displayName": "display_function.faq",
+        "routerName": "/support",
+        "id": "10006",
+        "icon": "assets/svg/ic_support_infor.svg"
+      },
+      {
+        "moduleId": "220104",
+        "displayName": "display_function.contact",
+        "id": "10006",
+        "routerName": "/ContactScreen",
+        "icon": "assets/svg/ic_contact.svg"
+      },
+      {
+        "moduleId": "220103",
+        "displayName": "display_function.mail",
+        "id": "10006",
+        "routerName": "/MailboxScreen",
+        "icon": "assets/svg/ic_email.svg"
+      }
+    ]
+  },
+  {
+    "moduleId": 10008,
+    "title": "menu.setting.title",
+    "icon": "assets/svg/ic_setting.svg",
+    "contains": [
+      {
+        "moduleId": "100081",
+        "displayName": "display_function.fast-menu",
+        "id": "10008",
+        "icon": "assets/svg/ic_set_up_home.svg"
+      },
+      {
+        "moduleId": "100082",
+        "displayName": "display_function.avatar",
+        "id": "10008",
+        "icon": "assets/svg/ic_set_up_avatar.svg"
+      },
+      {
+        "moduleId": "100083",
+        "displayName": "display_function.cover-image",
+        "id": "10008",
+        "icon": "assets/svg/ic_set_up_cover.svg"
+      },
+      {
+        "moduleId": "100084",
+        "displayName": "display_function.password",
+        "id": "10008",
+        "routerName": "/changePassword",
+        "icon": "assets/svg/ic_change_password.svg"
+      },
+      {
+        "moduleId": "100085",
+        "displayName": "display_function.suspend",
+        "routerName": "/suspendService",
+        "id": "10008",
+        "icon": "assets/svg/ic_stop_service.svg"
+      },
+      {
+        "moduleId": "100086",
+        "displayName": "display_function.customer-information",
+        "id": "10008",
+        "routerName": "/customerInfo",
+        "icon": "assets/svg/ic_customer_infor.svg"
+      },
+      {
+        "moduleId": "100087",
+        "displayName": "display_function.fingerprint",
+        "id": "10008",
+        "icon": "assets/svg/ic_login_finger.svg",
+        "routerName": "/RegisterBiometricScreen"
+      },
+      {
+        "moduleId": "100088",
+        "displayName": "display_function.notification",
+        "id": "10008",
+        "routerName": "/registerNotification",
+        "icon": "assets/svg/ic_register_notification.svg"
+      }
+    ]
+  },
+  {
+    "moduleId": 10010,
+    "title": "smart_otp.manager_smart_otp",
+    "icon": "assets/svg/ic_smart.svg",
+    "contains": [
+      {
+        "moduleId": "100100",
+        "displayName": "display_function.manager_smart_otp",
+        "id": "10010",
+        "icon": "assets/svg/ic_smart.svg",
+        "routerName":"/ManagerSmartOtpScreen"
+      }
+    ]
+    },
+  {
+    "moduleId": 10009,
+    "title": "login.logout",
+    "icon": "assets/svg/ic_logout.svg",
+    "contains": []
+  }
+]

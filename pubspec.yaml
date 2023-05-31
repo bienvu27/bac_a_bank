@@ -1,0 +1,80 @@
+name: bac_a_bank
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.19.5 <3.0.0'
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: ^1.0.2
+  provider: ^6.0.5
+  easy_localization: ^3.0.2
+  shared_preferences: ^2.1.1
+  dio: ^5.1.2
+  connectivity_plus: ^4.0.1
+  flutter_screenutil: ^5.7.0
+  fluttertoast: ^8.2.2
+  keyboard_dismisser: ^3.0.0
+  flutter_svg: ^2.0.5
+  flutter_html: ^0.11.1
+  package_info: ^2.0.0
+  flutter_linkify: ^6.0.0
+  launch_review: ^3.0.1
+  url_launcher: ^6.1.11
+  device_info: ^2.0.0
+  flutter_local_notifications: ^14.1.0
+  rxdart: ^0.27.7
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/images/svg/
+    - assets/images/image/
+    - assets/images/
+    - assets/wear/
+    - assets/json/menu/
+    - assets/svg/
+    - assets/flower_v2.png
+    - assets/translations/
+
+
+  fonts:
+    - family: Mulish-Bold
+      fonts:
+        - asset: assets/fonts/Mulish-Bold.ttf
+    - family: Mulish-ExtraLight
+      fonts:
+        - asset: assets/fonts/Mulish-ExtraLight.ttf
+    - family: Mulish-Light
+      fonts:
+        - asset: assets/fonts/Mulish-Light.ttf
+    - family: Mulish-Medium
+      fonts:
+        - asset: assets/fonts/Mulish-Medium.ttf
+    - family: Yellowtail-Regular
+      fonts:
+        - asset: assets/fonts/Yellowtail-Regular.ttf
+    - family: Microsoft-Sans-Serif
+      fonts:
+        - asset: assets/fonts/Microsoft-Sans-Serif.ttf
+    - family: baca
+      fonts:
+        - asset: assets/fonts/baca.ttf
+
